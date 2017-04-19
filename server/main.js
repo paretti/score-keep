@@ -1,5 +1,6 @@
 import {greetUser, name} from './../imports/utils';
-import {add} from './../imports/math';
+import defaultAdd from './../imports/math';
+// import {add} from './../imports/math';
 
 console.log('Log from /server/main.js');
-console.log(add(7, 1));
+console.log(defaultAdd(7, 1));

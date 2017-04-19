@@ -6,3 +6,6 @@ export let greetUser = function () {
 
 
 export let name = 'Chris';
+
+let myDefault = 'Some default value';
+export default myDefault;
